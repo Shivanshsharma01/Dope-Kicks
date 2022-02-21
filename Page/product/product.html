@@ -35,39 +35,43 @@
                 </div>
                 <div class="sidebar-heading">Price</div>
                 <div class="side-list">
-
-                    <div class="list-pills"><input type="checkbox"><label for="price">10k to 15k</label></div>
-                    <div class="list-pills"><input type="checkbox"><label for="price">15k-20k</label></div>
-                    <div class="list-pills"> <input type="checkbox"><label for="price">20k-30k</label></div>
-                    <div class="list-pills"> <input type="checkbox"><label for="price">30k-50k</label></div>
+                    <input type="range" min="0" max="10000" step="2500" list="tickmarks" class="slider" />
+                    <datalist id="tickmarks" class="input-datalist">
+                        <option value="0" class="txt-semibold" label="0"></option>
+                        <option value="2500" class="hide"></option>
+                        <option value="5000" class="txt-semibold" label="5K"></option>
+                        <option value="7500" class="hide"></option>
+                        <option value="10000" class="txt-semibold" label="10K"></option>
+                    </datalist>
                 </div>
                 <div class="sidebar-heading">Category</div>
                 <div class="side-list">
-                    <div class="list-pills"> <input type="checkbox"><label for="price">Air Jordan</label></div>
-                    <div class="list-pills"> <input type="checkbox"><label for="price">Air Max</label></div>
-                    <div class="list-pills"> <input type="checkbox"><label for="price">Ultra Boost</label></div>
-                    <div class="list-pills"> <input type="checkbox"><label for="price">Ultra Comfort</label></div>
+                    <div class="flex"> <input type="checkbox"><label for="price">Air Jordan</label></div>
+                    <div class="flex"> <input type="checkbox"><label for="price">Air Max</label></div>
+                    <div class="flex"> <input type="checkbox"><label for="price">Ultra Boost</label></div>
+                    <div class="flex"> <input type="checkbox"><label for="price">Ultra Comfort</label></div>
                 </div>
                 <div class="sidebar-heading">Rating</div>
                 <div class="side-list">
-                    <div class="list-pills"> <input type="radio"><label for="price">4 & above</label></div>
-                    <div class="list-pills"> <input type="radio"><label for="price">3 & above</label></div>
-                    <div class="list-pills"> <input type="radio"><label for="price">2 & above</label></div>
-                    <div class="list-pills"> <input type="radio"><label for="price">1 & above</label></div>
+                    <div class="flex"> <input type="radio"><label for="price">4 & above</label></div>
+                    <div class="flex"> <input type="radio"><label for="price">3 & above</label></div>
+                    <div class="flex"> <input type="radio"><label for="price">2 & above</label></div>
+                    <div class="flex"> <input type="radio"><label for="price">1 & above</label></div>
                 </div>
                 <div class="sidebar-heading">Sort By</div>
                 <div class="side-list">
-                    <div class="list-pills"> <input type="radio"><label for="price">Price High to Low</label></div>
-                    <div class="list-pills"> <input type="radio"><label for="price">Price Low to High</label></div>
+                    <div class="flex"> <input type="radio"><label for="price">Price High to Low</label></div>
+                    <div class="flex"> <input type="radio"><label for="price">Price Low to High</label></div>
                 </div>
             </aside>
             <div class="card-list">
+
                 <div class="card .price-card">
                     <div class="product-image">
                         <img src="https://images.unsplash.com/photo-1612724189298-89d36b10b26d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
                             alt="Image" />
-                        <div class="card-badge-dismiss">
-                            <i class="fa-regular fa-circle-xmark"></i>
+                        <div class="card-badge">
+                            10% OFF
                         </div>
                     </div>
                     <div class="card-title">
@@ -90,17 +94,16 @@
                     <button class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i>
                         ADD TO
                         CART</button>
-                    <button class="btn btn-success"><i class="fa-regular fa-heart"></i> 
+                    <button class="btn btn-success"><i class="fa-regular fa-heart"></i>
                         WISHLIST</button>
-    
                 </div>
 
                 <div class="card .price-card">
                     <div class="product-image">
                         <img src="https://images.unsplash.com/photo-1612724189298-89d36b10b26d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
                             alt="Image" />
-                        <div class="card-badge-dismiss">
-                            <i class="fa-regular fa-circle-xmark"></i>
+                        <div class="card-badge">
+                            10% OFF
                         </div>
                     </div>
                     <div class="card-title">
@@ -123,17 +126,16 @@
                     <button class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i>
                         ADD TO
                         CART</button>
-                    <button class="btn btn-success"><i class="fa-regular fa-heart"></i> 
+                    <button class="btn btn-success"><i class="fa-regular fa-heart"></i>
                         WISHLIST</button>
-    
                 </div>
 
                 <div class="card .price-card">
                     <div class="product-image">
                         <img src="https://images.unsplash.com/photo-1612724189298-89d36b10b26d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
                             alt="Image" />
-                        <div class="card-badge-dismiss">
-                            <i class="fa-regular fa-circle-xmark"></i>
+                        <div class="card-badge">
+                            10% OFF
                         </div>
                     </div>
                     <div class="card-title">
@@ -156,17 +158,16 @@
                     <button class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i>
                         ADD TO
                         CART</button>
-                    <button class="btn btn-success"><i class="fa-regular fa-heart"></i> 
+                    <button class="btn btn-success"><i class="fa-regular fa-heart"></i>
                         WISHLIST</button>
-    
                 </div>
 
                 <div class="card .price-card">
                     <div class="product-image">
                         <img src="https://images.unsplash.com/photo-1612724189298-89d36b10b26d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
                             alt="Image" />
-                        <div class="card-badge-dismiss">
-                            <i class="fa-regular fa-circle-xmark"></i>
+                        <div class="card-badge">
+                            10% OFF
                         </div>
                     </div>
                     <div class="card-title">
@@ -189,17 +190,16 @@
                     <button class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i>
                         ADD TO
                         CART</button>
-                    <button class="btn btn-success"><i class="fa-regular fa-heart"></i> 
+                    <button class="btn btn-success"><i class="fa-regular fa-heart"></i>
                         WISHLIST</button>
-    
                 </div>
 
                 <div class="card .price-card">
                     <div class="product-image">
                         <img src="https://images.unsplash.com/photo-1612724189298-89d36b10b26d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
                             alt="Image" />
-                        <div class="card-badge-dismiss">
-                            <i class="fa-regular fa-circle-xmark"></i>
+                        <div class="card-badge">
+                            10% OFF
                         </div>
                     </div>
                     <div class="card-title">
@@ -222,17 +222,16 @@
                     <button class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i>
                         ADD TO
                         CART</button>
-                    <button class="btn btn-success"><i class="fa-regular fa-heart"></i> 
+                    <button class="btn btn-success"><i class="fa-regular fa-heart"></i>
                         WISHLIST</button>
-    
                 </div>
 
                 <div class="card .price-card">
                     <div class="product-image">
                         <img src="https://images.unsplash.com/photo-1612724189298-89d36b10b26d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
                             alt="Image" />
-                        <div class="card-badge-dismiss">
-                            <i class="fa-regular fa-circle-xmark"></i>
+                        <div class="card-badge">
+                            10% OFF
                         </div>
                     </div>
                     <div class="card-title">
@@ -255,10 +254,10 @@
                     <button class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i>
                         ADD TO
                         CART</button>
-                    <button class="btn btn-success"><i class="fa-regular fa-heart"></i> 
+                    <button class="btn btn-success"><i class="fa-regular fa-heart"></i>
                         WISHLIST</button>
-    
                 </div>
+
 
             </div>
         </div>

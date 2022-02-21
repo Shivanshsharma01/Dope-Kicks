@@ -1,7 +1,6 @@
 .product-main {
     display: flex;
     flex-direction: row;
-
     margin: 2rem;
 }
 
@@ -11,7 +10,6 @@
     background-color: var(--log-background);
     border-radius: 5px;
     width: 35rem;
-    /* height: 50rem; */
 }
 
 .side-list {
@@ -21,7 +19,7 @@
     font-weight: 500;
 }
 
-.list-pills {
+.flex {
     display: flex;
 }
 
@@ -33,7 +31,6 @@
 
 .sidebar-head {
     display: flex;
-
 }
 
 .clear-btn {
@@ -56,3 +53,22 @@
     width: 200rem;
     padding: 0 4rem;
 }
+
+.slider {
+    accent-color: var(--nav-logo);
+}
+
+.input-datalist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.txt-semibold{
+    font-weight: 600;
+}
+
+.hide {
+    display: none;
+  }

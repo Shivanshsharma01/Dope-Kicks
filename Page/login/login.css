@@ -1,0 +1,61 @@
+.log-container {
+    margin: auto;
+    width: 30rem;
+    height: max-content;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid;
+    background-color: var(--log-background);
+    margin-top: 2rem;
+}
+
+.log-heading {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.log-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-g {
+    display: flex;
+    width: fit-content;
+    align-items: left;
+    margin: 2rem;
+}
+
+.input-simple{
+    height: 1.8rem;
+    width: 15rem;
+}
+
+.input-label {
+    font-weight: 800;
+}
+
+.log-text {
+    padding: 2rem;
+    font-weight: 600;
+}
+
+.log-text a {
+    color: var(--nav-logo);
+   
+}
+
+.log-button{
+    width: 70%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: var(--nav-logo);
+}
+
+.log-button a{
+    color: var(--default-color);
+}

@@ -8,6 +8,7 @@
     border: 2px solid;
     background-color: var(--log-background);
     margin-top: 2rem;
+    align-items: center;
 }
 
 .log-heading {
@@ -22,11 +23,8 @@
     align-items: center;
 }
 
-.input-g {
-    display: flex;
-    width: fit-content;
-    align-items: left;
-    margin: 2rem;
+.input-group {
+    margin: 1rem;
 }
 
 .input-simple{

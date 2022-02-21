@@ -1,0 +1,52 @@
+.cart-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    margin-left: 4rem;
+}
+
+.cart-container {
+    display: flex;
+}
+
+.cart-heading {
+    margin: 3rem;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.cart-pricing{
+    margin-left: 22rem;
+    width: 20rem;
+    background-color: var(--nav-logo);
+    padding: 2rem;
+    height: max-content;
+}
+
+.price-list{
+    border-bottom: 2px solid black;
+}
+.price-heading{
+    border-bottom: 2px solid black;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.price-comp{
+    margin: 1rem 0px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+}
+
+.price-value{
+    float: right;
+   
+}
+
+.price-total{
+    margin: 1rem 0px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}

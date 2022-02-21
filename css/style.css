@@ -1,0 +1,12 @@
+@import url('/css/navbar.css');
+@import url('/page/login/login.css');
+@import url("https://mango-ui.netlify.app/css/style.css")
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+:root{
+    --nav-background:#4338ca;
+    --nav-logo:#fde047;
+    --log-background:#818cf8;
+}

@@ -57,3 +57,8 @@
 .log-button a{
     color: var(--default-color);
 }
+
+.logout{
+    margin-top: 10rem;
+    
+}

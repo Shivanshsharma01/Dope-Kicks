@@ -1,0 +1,40 @@
+.footer {
+    background-color: var(--nav-background);
+    text-align: center;
+    color: var(--nav-logo);
+    padding: 2rem 1rem;
+    font-weight: var(--bold-regular);
+    margin-top: 5rem;
+    position: relative;
+}
+
+.footer-list {
+    margin-top: 1rem;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer ul li {
+    text-decoration: none;
+}
+
+.links {
+    text-decoration: none;
+    padding: 0.5rem;
+    color: var(--nav-logo);
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.fix{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}

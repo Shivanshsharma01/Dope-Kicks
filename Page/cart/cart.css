@@ -50,3 +50,38 @@
     font-size: 1.5rem;
     font-weight: 600;
 }
+
+.cart-btn{
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: var(--log-background);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.quant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity-n{
+    border: 2px solid var(--default-color);
+    padding: 4px 10px;
+    margin: 0 1rem;
+}
+
+.quantity{
+    border: 2px solid var(--default-color);
+    border-radius: 50%;
+    padding: 0 6px;
+    font-weight: 900;
+    font-size: 1rem;
+    background-color: var(--nav-logo);
+    color: var(--default-color);
+}
+
+.txt-bold{
+    font-weight: 600;
+}
